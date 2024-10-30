@@ -7,7 +7,8 @@ CREATE TABLE Categories(
 	CategoryId INT PRIMARY KEY IDENTITY(1,1),
 	CategoryName VARCHAR(30)
 );
--- Íå áûëî èíôîðìàöèè î òîì êàê õðàíÿòñÿ äàííûå, ïðåäïîëîæèë ÷òî òàê.
+
+-- There was no information about how the data was stored, I assumed that it was like this.
 CREATE TABLE ProductCategory(
 	ProductId INT,
 	CategoryId INT
