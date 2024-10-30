@@ -71,7 +71,7 @@ public class TriangleTest
     [InlineData(1, 1, 1)]
     [InlineData(3, 4, 5)]
     [InlineData(6.3, 4.2, 7.1)]
-    public void CreateTriangle_CorrectRadius_Success(
+    public void CreateTriangle_CorrectSides_Success(
         double firstSide,
         double secondSide,
         double thirdSide)
